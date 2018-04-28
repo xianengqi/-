@@ -61,7 +61,7 @@
       return newString; // "olleh"
   }
 
-  reverseString('hello);
+  reverseString('hello");
 ```
 * 去掉注释后：
 ```js
@@ -72,7 +72,7 @@
     }
     return newString;
   }
-  reverseString('hello);
+  reverseString('hello");
 ```
 ## 3.递归反转字符串
 * 对于这个解决方案，我们将使用两种方法： String.prototype.substr()方法和String.prototype.charAt()方法.
