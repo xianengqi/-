@@ -134,3 +134,22 @@
   }
   reverseString("hello");
 ```
+### 返回负值
+```js
+  function makeNegative(num) {
+    // Code?
+    return num < 0 ? num : -num;
+  }
+```
+### Sample Tests:
+```js
+  Test.assertEquals(makeNegative(42), -42);
+  /*
+  Test Passed: Value == -42
+  Test Passed: Value == -9
+  Test Passed: Value == 0
+  Test Passed: Value == -29
+  Test Passed: Value == -14
+  */
+
+```
