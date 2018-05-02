@@ -175,3 +175,13 @@
     return result;
   }
 ```
+### 更简洁优美的代码：
+```js
+// 原来的代码
+  var summation = function (num) {   
+  }
+```
+```js
+  // 改造后的代码：
+  const summation = n => n * (n + 1) / 2;
+```
