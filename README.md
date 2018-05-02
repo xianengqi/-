@@ -186,3 +186,25 @@
   // 改造后的代码：
   const summation = n => n * (n + 1) / 2;
 ```
+### Consider an array of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+```js
+  function countSheeps(arrayOfSheep) {
+  var num = 0;
+  for(i = 0; i < arrayOfSheep.length; i++) {
+    if(arrayOfSheep[i]) {
+      num += 1;
+    }
+  }
+  return num;
+}
+
+// Sample Tests:
+var array1 = [true,  true,  true,  false,
+              true,  true,  true,  true ,
+              true,  false, true,  false,
+              true,  false, false, true ,
+              true,  true,  true,  true ,
+              false, false, true,  true ];
+              
+Test.expect(countSheeps(array1) == 17, "There are 17 sheeps in total") 
+```
