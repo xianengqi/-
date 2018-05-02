@@ -178,7 +178,8 @@
 ### 更简洁优美的代码：
 ```js
 // 原来的代码
-  var summation = function (num) {   
+  var summation = function (num) {
+    // 改造前 
   }
 ```
 ```js
