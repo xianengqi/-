@@ -165,3 +165,13 @@
   return number % 2 ? "Odd" : "Even"
 }
 ```
+### 写一个程序，找到1和num之间的每个数字的总和。 该数字将始终是一个大于0的正整数。(Write a program that finds the summation of every number between 1 and num. The number will always be a positive integer greater than 0.)
+```js
+  var summation = function (num) {
+    let result = 0;
+    for (var i = 1; i <= num; i++) {
+      result += i;
+    }
+    return result;
+  }
+```
